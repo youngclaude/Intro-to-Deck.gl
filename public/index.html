@@ -9,9 +9,8 @@
     <script src="main.js"></script>
 
     <script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDa8wnpxTDPljQ9aLY4sm-ubRgk-eg-7gY&callback=initMap" >
+        src=`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&callback=initMap` >
     </script>
-
     <style>
         body {margin: 0;}
  
